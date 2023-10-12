@@ -1,0 +1,201 @@
+{
+  "intents": [
+    {
+      "tag": "Benvenuto",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "GoodMoorning"
+      ],
+      "responses": [
+        "Hi, how can I help you?😄",
+        "Hello, what can I do for you?😄",
+        "Welcome, how can I help you?😀"
+      ]
+    },
+
+
+    {
+      "tag": "Fine",
+      "patterns": [
+          "Bye",
+          "See you",
+          "Goodbye"
+        ],
+      "responses": [
+        "Thanks for using the chatbot",
+        "Goodbye",
+        "See you next time!"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you"],
+      "responses": ["You're welcome😄", "I'm glad to have been useful to you😀"]
+    },
+
+    {
+      "tag": "Inizio blockchain migliore",
+      "patterns": [
+        "Can you help me find the best blockchain?",
+        "I would like to find the best performing blockchain based on some characteristics",
+        "I have a list of features in order to find the most suitable blockchain",
+        "I would like to find the best blockchain",
+        "Could you help me in selecting the perfect blockchain?",
+        "I want to find the best blockchain"
+      ],
+
+      "responses": [
+        "Of course, I can search on seven attributes. \n - transparency \n - language difficulty via smart contract \n - security \n - automation \n - speed \n - documentation \n - cost \n .You can express your preference by indicating the name of the attribute and the desired level on a scale of one to five! \n To have a more accurate result, I suggest you to enter multiple attributes. \n Here is an example: Transparency 2" ]
+    },
+
+    {
+      "tag": "trasparenza",
+      "patterns": [
+        "I want a transparency level of 1",
+        "Transparency must be 2",
+        "I would like level 3 of transparency",
+        "transparency = 2",
+        "transparency : 3",
+        "transparency : 1",
+        "transparency 2"
+      ],
+
+      "responses": [
+        "Perfect, if you want I can provide you an initial result. Insert more attributes for a more accurate result!😀"
+            ]
+    },
+
+    {
+      "tag": "linguaggio",
+      "patterns": [
+           "I want that lenguage difficulties must be 3",
+           "I want the lenguage difficulties equal to 1",
+           "I want the  lenguage difficulties level to be 2",
+           "lenguage difficulties 1",
+           "lenguage difficulties 4",
+           "difficultie 1",
+           "difficultie 4",
+           "language 3",
+           "language 5"
+      ],
+
+      "responses": [
+        "Perfect, if you want I can provide you an initial result. Insert more attributes for a more accurate result!😀"     ]
+    },
+
+    {
+      "tag": "sicurezza",
+      "patterns": [
+        "I want a security level of 1",
+        "security must be 2",
+        "I would like level 3 of security",
+        "security = 2",
+        "security : 3",
+        "security : 1",
+        "security 4"
+      ],
+
+      "responses": [
+        "Perfect, if you want I can provide you an initial result. Insert more attributes for a more accurate result!😀"     ]
+    },
+
+    {
+      "tag": "automazione",
+      "patterns": [
+        "I want an automation level of 1",
+         "Automation must be 2",
+         "I would like level 3 of automation",
+         "automation = 2",
+         "automation : 3",
+         "automation : 1",
+         "automation 2",
+         "level 1",
+         "level 3",
+         "automation level 2"
+      ],
+
+      "responses": [
+        "Perfect, if you want I can provide you an initial result. Insert more attributes for a more accurate result!😀"     ]
+    },
+
+    {
+      "tag": "velocità",
+      "patterns": [
+        "I want a speed level of 1",
+        "Speed should be 2",
+        "I would like a level 3 of speed",
+        "The blockchain must be fast 2",
+        "speed = 2",
+        "speed : 3",
+        "speed : 1",
+        "speed 2",
+        "speed 5"
+      ],
+
+      "responses": [
+        "Perfect, if you want I can provide you an initial result. Insert more attributes for a more accurate result!😀"     ]
+    },
+
+    {
+      "tag": "documentazione",
+      "patterns": [
+        "I want a documentation level of 1",
+        "documentation must be 2",
+        "I would like level 3 of documentation",
+        "documentation = 2",
+        "documentation : 3",
+        "documentation : 1",
+        "documentation 2"
+      ],
+
+      "responses": [
+        "Perfect, if you want I can provide you an initial result. Insert more attributes for a more accurate result!😀"     ]
+    },
+    {
+      "tag": "costi",
+      "patterns": [
+        "I want a cost level of 1",
+        "cost must be 2",
+        "I would like level 3 of cost",
+        "cost = 2",
+        "cost : 3",
+        "cost : 1",
+        "cost 2"
+      ],
+
+      "responses": [
+        "Perfect, if you want I can provide you an initial result. Insert more attributes for a more accurate result!😀"     ]
+    },
+
+    {
+      "tag": "trovato",
+      "patterns": [
+        "Could you show me the final result?",
+        "Could you provide me with the result of your search?",
+        "Which blockchain have you found?",
+        "Based on these parameters, what is the best result?",
+        "Show me the result!",
+        "I want the result",
+        "Provide me the result",
+        "Show me the result",
+        "result"
+      ],
+      "responses": [
+        "The best blockchain is: HyperFabric",
+        "The best blockchain is: HyperIndy",
+        "The best blockchain is: BitCoin",
+        "The best blockchain is: LiteCoin",
+        "The best blockchain is: Nexledger",
+        "The best blockchain is: Algorand",
+        "The best blockchain is: Quadrans",
+        "The best blockchain is: ETH",
+        "The best blockchain is: Polygon",
+        "The best blockchain is: Quorum",
+        "The best blockchain is: Flow"
+      ]
+    }
+  ]
+}
